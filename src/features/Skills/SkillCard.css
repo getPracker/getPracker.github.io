@@ -1,0 +1,61 @@
+.skill-card-container{
+    display: inline-grid;
+    justify-items: center;
+    grid-auto-flow: row;
+    width: 100%;
+}
+
+.skill-img img{ 
+    height: 4em;
+    width: 4em;
+    padding: 0.2em;
+    margin: 0.2em;
+}
+
+.skill-img img:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.skills-bar{
+    width: 3em;
+    background-color: aquamarine;
+    height: 0.5em;
+}
+
+.skill{
+    height: 0.5em;
+    background-color: black;    
+}
+
+.skill-list{
+    display: inline-grid;
+    grid-auto-flow: column;
+    justify-items: space-between;
+}
+
+.skills-container{
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.skills-container .inline{
+    display: inline-grid;
+    justify-items: center;
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+.skill-list li{
+    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.skills-container h1{
+    margin-top: 0.5em;
+}

@@ -1,0 +1,36 @@
+.card-container{
+    display: inline-grid;
+    border: 2px solid black;
+    border-radius: 13px;
+    grid-auto-flow: column;
+    justify-items: center;
+}
+
+button{
+    width: 2em;
+    border-radius: 13px;
+    background-color: #204040;
+    color: #BDB76B;
+}
+
+.card-content{
+    display: inline-grid;
+    justify-items: center;
+    padding: 0.5em;
+}
+
+
+.card-list{
+    display: inline-grid;
+    justify-items: start;
+    padding: 1em;
+}
+
+.card-list li{
+    list-style:disc;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}

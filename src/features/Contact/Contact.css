@@ -1,0 +1,39 @@
+form{
+    border: 2px solid black;
+    border-radius: 13px;
+    width: calc(100% - 1em);
+    margin-left: 0.5em;
+    display: inline-grid;
+    justify-items: center;
+    grid-auto-flow: row;
+}
+
+form .inline{
+    display: inline-grid;
+    grid-auto-flow: column;
+    padding: 1em;
+}
+
+
+.form-item .item{
+    padding: 0.5em;
+}
+
+.title{
+    text-align: center;
+    margin: 0.5em;
+}
+
+form textarea{
+    width: 15em;
+    height: 10em;
+}
+
+form button{
+    width: 5em;
+    height: 2em;
+    padding: 0.5em;
+    margin: 1em;
+    display: inline-grid;
+    align-content: center;
+}
