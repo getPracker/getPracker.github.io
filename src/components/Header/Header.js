@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Header.css";
-import resumeSrc from '../../assests/Prakhar_Gupta_Resume.pdf';
 
 
 function Header(){
