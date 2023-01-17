@@ -69,22 +69,24 @@
     margin: 0.2em;
 }
 
+@media only screen and (min-width: 200px) and (max-width: 1400px){
 
-@media only screen and (min-width: 200px) and (max-width: 800px){
-    *{
-      font-size: 0.98em;
+    .skill-img img{ 
+        height: 2em;
+        width: 2em;
+        padding: 0.2em;
+        margin: 0.2em;
     }
-    
-    .title h1{
-      font-size: 1.0em;
+
+    .skill-list li{
+        padding: 0.5em;
     }
 
     .skills-container{
-        display: inline-grid;
         grid-auto-flow: row;
         grid-template-columns: 1fr;
+        width: 100%;
         margin-top: 2em;
+        min-width: 200px;
     }
-
-
   }

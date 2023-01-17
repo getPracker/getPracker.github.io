@@ -73,9 +73,6 @@ nav{
 
 
   @media only screen and (min-width: 200px) and (max-width: 800px){
-    *{
-      font-size: 0.98em;
-    }
     
     .title h1{
       font-size: 1.0em;
@@ -99,5 +96,6 @@ nav{
       margin-top: 0.5em;
      
     }
+    
 
   }
