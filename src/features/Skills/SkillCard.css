@@ -13,19 +13,20 @@
 }
 
 .skill-img img:hover{
-    border: 2px solid black;
+    border: 2px solid #BDB76B;
+    border-radius: 13px;
     cursor: pointer;
 }
 
 .skills-bar{
-    width: 3em;
-    background-color: aquamarine;
+    width: 4em;
+    background-color: #BDB76B;
     height: 0.5em;
 }
 
 .skill{
     height: 0.5em;
-    background-color: black;    
+    background-color: #204040;    
 }
 
 .skill-list{
@@ -59,3 +60,31 @@
 .skills-container h1{
     margin-top: 0.5em;
 }
+
+.skills-name p{
+    color: black;
+}
+
+.skills-name{
+    margin: 0.2em;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 800px){
+    *{
+      font-size: 0.98em;
+    }
+    
+    .title h1{
+      font-size: 1.0em;
+    }
+
+    .skills-container{
+        display: inline-grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        margin-top: 2em;
+    }
+
+
+  }

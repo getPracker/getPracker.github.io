@@ -7,21 +7,49 @@
   letter-spacing: 0.05em;
   box-sizing: border-box;
 }
+::-webkit-scrollbar{
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background: 204040;  
+  border-radius: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background: #204040; 
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #888; 
+}
+
+
+body{
+  background-color: #6ea34b;
+}
 
 .inline{
   display: inline-grid;
 }
 
 .footer-container{
-  justify-items: center;
   width: 100%;
+  
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-item{
+  padding: 0.1em;
+  margin: 0.1em;
 }
 
 footer{
   background-color: #708090;
-  height: 6em;
-  width: 100%;
+  width: calc(100%);
   margin-top: 2em;
+  border-radius: 13px;
 }
 
 footer p{
@@ -36,12 +64,12 @@ li{
 
 footer img{
   width: 1.5em;
-  height: 1.5em;
 }
 
 hr{
   border-radius: 0.005em;
   width: 15em;
+  margin: 0.5em;
 }
 
 .social-link-list{

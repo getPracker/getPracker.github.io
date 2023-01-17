@@ -14,47 +14,63 @@ h1{
 .about .list-container{
     display: inline-grid;
     justify-items: center;
+    margin: 0.5em;
 }
 
 .about{
-    height: 500px;
     overflow-y: auto;
 }
 
-::-webkit-scrollbar{
-    width: 0.9em;
-}
-
-::-webkit-scrollbar-track {
-    background: 204040;  
-    border-radius: 13px;
-}
-::-webkit-scrollbar-thumb {
-    background: #204040; 
-    border-radius: 13px;
-  }
-
-::-webkit-scrollbar-thumb:hover {
-  background: #888; 
-}
 
 .exp-container{
     display: inline-grid;
     justify-items: center;
-    height: 10em;
 }
 
 .exp-item{
     padding: 0.5em;
 }
 
-.about-content{
+.about-content, .experience, .education{
     display: inline-grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
+    grid-auto-flow: row;
+    justify-items: center;
     width: 100%;
+}
+
+.list-item h1{
+    font-size: 1.5em;
+    margin: 0.2em;
 }
 
 .list-item{
     padding-top: 0.5em;
+    margin: 0.2em;
 }
+
+.list-item p{
+    color: black;
+    font-size: 0.98em;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 800px){
+    *{
+      font-size: 0.98em;
+    }
+    
+    .title h1{
+      font-size: 1.0em; 
+    }
+
+    .about-content{
+        display: inline-grid;
+        grid-auto-flow: row;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+
+  }

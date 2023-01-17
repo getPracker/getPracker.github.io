@@ -8,7 +8,10 @@ function SkillCard(props){
         <div className='skill-card-container'>
             <div className='skill-img'><img src={data.url} alt={data.title}></img></div>
             <div className='skills-bar'>
-                <div className="skill" style={{width: ((data.level/10)*100 )*60/100 }}></div>
+                <div className="skill" style={{width: ((data.level/10)*100 )*80/100 }}></div>
+            </div>
+            <div className='skills-name'>
+                <p>{data.title}</p>
             </div>
         </div>
     )

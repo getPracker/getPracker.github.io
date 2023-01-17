@@ -16,11 +16,6 @@ const menuData = [
         cName: "nav-link"
     },
     {
-        name: "Projects",
-        url: ROUTES.projectsRoute(),
-        cName: "nav-link"
-    },
-    {
         name: "Contact",
         url: ROUTES.contactRoute(),
         cName: "nav-link"

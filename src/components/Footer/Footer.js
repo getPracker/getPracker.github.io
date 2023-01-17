@@ -11,10 +11,10 @@ function Footer(){
       <>
       <footer>
         <div className="inline footer-container">
-            <div><p>@getPracker</p></div>
-            <div className="copyright">copyright</div>
+            <div className="footer-item"><p>@getPracker</p></div>
+            <div className="footer-item">copyright</div>
             <hr className="solid"></hr>
-            <ul className="inline social-link-list">
+            <ul className="inline social-link-list footer-item">
                 <li><a href="https://www.instagram.com/getPracker/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram"></img></a></li>
                 <li><a href="https://www.linkedin.com/in/getPracker/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="LinkedIn"></img></a></li>
                 <li><a href="https://github.com/getpracker" target="_blank" rel="noopener noreferrer"><img src={github} alt="Github"></img></a></li>

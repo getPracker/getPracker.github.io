@@ -51,8 +51,8 @@ nav{
   .logo img{
     width: 2.5em;
     height: 2.0em;
-    /* border-radius: 100%;
-    border: 2px #fff solid; */
+    border-radius: 13px;
+  
   }
   .menu-icon{
     width: 1.5em;
