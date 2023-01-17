@@ -3,14 +3,10 @@ import { useDispatch } from "react-redux";
 //import { useHistory } from "react-router-dom";
 import { addNewProject } from "../../features/Projects/projectsSlice";
 import { v4 as uuidv4 } from "uuid";
-import ROUTES from "../../app/routes";
-import { useNavigate } from "react-router-dom";
-
 export default function NewProjectForm() {
   const dispatch = useDispatch();
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
-  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
