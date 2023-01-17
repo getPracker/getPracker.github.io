@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './SkillCard.css';
 
 function SkillCard(props){
