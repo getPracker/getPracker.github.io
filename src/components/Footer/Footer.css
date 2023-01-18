@@ -4,6 +4,7 @@
     justify-items: center;
     align-items: center;
     width: calc(100% - 1em);
+    min-width: 18em;
     padding: 0.25em;
     margin: 0.25em;
 }
@@ -32,12 +33,9 @@ footer img{
     height: 2em;
 }
 
-footer a{
-    border: 0.1em solid black;
-    border-radius: 0.5em;
-}
 
-footer a:hover{
+
+footer img:hover{
     cursor: pointer;
     background-color: rgb(224, 224, 224);
     box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 1);
