@@ -13,16 +13,14 @@ function NavBar(){
     const [isClicked, setIsClicked] = useState(false);
     const handleHover = (e) =>{
       if(e.type === 'mouseover'){
-        e.target.style.color = '#000';
+        e.target.style.color = 'grey';
       }else{
-        e.target.style.color = '#BDB76B';
+        e.target.style.color = 'black';
       }
     };
     
     const handleClick = (e) =>{
-      //console.log(e.target.src);
       if(src === menuIcon) {
-        ///console.log("menu");
         setIsClicked(true);
         setSrc(closeIcon);
       }else {
@@ -33,25 +31,20 @@ function NavBar(){
 
     return (
       <>
-      <nav>
-        <div className="inline container">
-          <div className="nav-left container">
-            <div className="logo"><img src={logo} alt="getPracker"></img></div>
-            <div className="title"><h1>{prakhar}</h1></div>
-          </div>
-          <div className="nav-right container">
-            <ul className="inline navbar-container">
-            {!isClicked ? null : menuData.map((item, index)=>{
-              return (
-                <li  key ={index} className={item.cName}><NavLink to={item.url}><p onMouseOver={handleHover} onMouseLeave={handleHover}>{item.name}</p></NavLink></li>
-              )
-            })}
-            </ul>
-            <div className="img">
-              <img src={src} className="menu-icon" alt="menu-icon" onClick={handleClick}></img>
-            </div>
-          </div>
-          
+      <nav className="inline-grid-col">
+        <div className="nav-left inline-grid-col">
+          <img className="nav-logo" src={logo} alt="getPracker"></img>
+          <h1 className="nav-title">{prakhar}</h1>
+        </div>
+        <div className="nav-right inline-grid-col">
+          {!isClicked ? null : <ul className="inline-grid-col nav-bar">
+          {!isClicked ? null : menuData.map((item, index)=>{
+            return (
+              <div className="inline-grid-col navbar-list-div"><li  key ={index} className={item.cName}><NavLink to={item.url}><p onMouseOver={handleHover} onMouseLeave={handleHover}><strong>{item.name}</strong></p></NavLink></li></div>
+            )
+          })}
+          </ul>}
+          <img src={src} className="inline-grid-col nav-icon" alt="menu-icon" onClick={handleClick}></img>
         </div>
       </nav>
       </>

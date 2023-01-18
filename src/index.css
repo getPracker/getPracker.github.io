@@ -6,74 +6,39 @@
   font-size: 20px;
   letter-spacing: 0.05em;
   box-sizing: border-box;
+  
 }
+
 ::-webkit-scrollbar{
-  width: 1em;
+  width: 0.25em;
 }
 
 ::-webkit-scrollbar-track {
-  background: 204040;  
-  border-radius: 13px;
+  background: #888; 
 }
 ::-webkit-scrollbar-thumb {
-  background: #204040; 
-  border-radius: 13px;
+  background: rgba(0, 0, 0, 0.647); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #888; 
+  background: #888; 
+}
+::-webkit-scrollbar-track:hover{
+  background: yellow; 
 }
 
 
 body{
-  background-color: #6ea34b;
+  background-color: rgb(224, 224, 224);
 }
+
 
 .inline{
   display: inline-grid;
 }
 
-.footer-container{
-  width: 100%;
+
+
+@media only screen and (min-width: 200px) and (max-width: 800px){
   
-  justify-items: center;
-  align-items: center;
-}
-
-.footer-item{
-  padding: 0.1em;
-  margin: 0.1em;
-}
-
-footer{
-  background-color: #708090;
-  width: calc(100%);
-  margin-top: 2em;
-  border-radius: 13px;
-}
-
-footer p{
-  color: black;
-  font-weight: 100;
-  padding: 0.5em;
-}
-
-li{
-  padding: 0.05em;
-}
-
-footer img{
-  width: 1.5em;
-}
-
-hr{
-  border-radius: 0.005em;
-  width: 15em;
-  margin: 0.5em;
-}
-
-.social-link-list{
-  grid-auto-flow: column;
-  width: 20em;
-  justify-items: center;
 }

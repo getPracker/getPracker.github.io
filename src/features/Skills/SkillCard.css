@@ -86,6 +86,7 @@
         grid-auto-flow: row;
         grid-template-columns: 1fr;
         width: 100%;
+        max-width: calc(100% - 6em);
         margin-top: 2em;
         min-width: 200px;
     }

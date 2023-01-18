@@ -3,22 +3,22 @@ const menuData = [
     {
         name: "Home",
         url: ROUTES.homeRoute(),
-        cName: "nav-link"
+        cName: "inline-grid-col nav-item"
     },
     {
         name: "About",
         url: ROUTES.aboutRoute(),
-        cName: "nav-link"
+        cName: "inline-grid-col nav-item"
     },
     {
         name: "Skills",
         url: ROUTES.skillsRoute(),
-        cName: "nav-link"
+        cName: "inline-grid-col nav-item"
     },
     {
         name: "Contact",
         url: ROUTES.contactRoute(),
-        cName: "nav-link"
+        cName: "inline-grid-col nav-item"
     }
 ];
 
