@@ -69,7 +69,9 @@ nav:hover{
   list-style: none;
   color: black;
 }
-
+.navbar-list-div{
+  width: 100%;
+}
 .navbar-list-div:hover{
   cursor: pointer;
   border-radius: 0.5em;
@@ -123,6 +125,9 @@ nav:hover{
 
   .nav-item{
     border-radius: 0.5em;
+  }
+  .nav-item a strong{
+    position: relative;
     z-index: -1;
   }
 
@@ -132,7 +137,6 @@ nav:hover{
 
   .nav-icon:hover{
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
   }
 
   .nav-item p strong{

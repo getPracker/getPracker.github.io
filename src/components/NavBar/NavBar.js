@@ -11,13 +11,6 @@ function NavBar(){
     const prakhar = "PRAKHAR GUPTA";
     const [src, setSrc] = useState(menuIcon);
     const [isClicked, setIsClicked] = useState(false);
-    const handleHover = (e) =>{
-      if(e.type === 'mouseover'){
-        e.target.style.color = 'grey';
-      }else{
-        e.target.style.color = 'black';
-      }
-    };
     
     const handleClick = (e) =>{
       if(src === menuIcon) {
@@ -40,7 +33,7 @@ function NavBar(){
           {!isClicked ? null : <ul className="inline-grid-col nav-bar">
           {!isClicked ? null : menuData.map((item, index)=>{
             return (
-              <div className="inline-grid-col navbar-list-div"><li  key ={index} className={item.cName}><NavLink to={item.url}><p onMouseOver={handleHover} onMouseLeave={handleHover}><strong>{item.name}</strong></p></NavLink></li></div>
+              <div className="inline-grid-col navbar-list-div"><li  key ={index} className={item.cName}><NavLink to={item.url}><p><strong>{item.name}</strong></p></NavLink></li></div>
             )
           })}
           </ul>}
