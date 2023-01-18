@@ -18,6 +18,7 @@ footer{
 
 footer:hover{
     box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in-out;
 }
 
 .text-item{
@@ -41,6 +42,7 @@ footer img:hover{
     box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 1);
     border-radius: 0.5em;
     border: 0.1em solid black;
+    transition: all 0.2s ease-in-out;
 }
 
 footer ul li{

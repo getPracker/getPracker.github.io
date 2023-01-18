@@ -21,6 +21,7 @@ nav {
 
 nav:hover{
   box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 1);
+  transition: all 0.2s ease-in-out;
 }
 .nav-left{
   grid-template-columns: 2.5em;
@@ -40,6 +41,7 @@ nav:hover{
   cursor: pointer;
   border-radius: 0.5em;
   box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-title{
@@ -55,6 +57,7 @@ nav:hover{
   cursor: pointer;
   border-radius: 0.5em;
   box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-right{
@@ -71,6 +74,7 @@ nav:hover{
   cursor: pointer;
   border-radius: 0.5em;
   box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-bar li {
@@ -88,6 +92,7 @@ nav:hover{
   cursor: pointer;
   border-radius: 0.5em;
   box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 0.9);
+  transition: all 0.2s ease-in-out;
 }
 
 
@@ -127,6 +132,7 @@ nav:hover{
 
   .nav-icon:hover{
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
   }
 
   .nav-item p strong{
