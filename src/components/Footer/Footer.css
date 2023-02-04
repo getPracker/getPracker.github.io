@@ -7,12 +7,12 @@ footer{
     width: calc(100% - 1em);
     margin: 0.25em !important;
     height: auto;
-    /* position: sticky;
-    z-index: -1;
+    position: relative;
+    z-index: 8;
     left: 0.25em;
-    bottom: 0; */
-    
+    bottom: 0;
 }
+
 
 footer:hover{
     box-shadow:  0.28em 0.25em 0.5em rgba(0, 0, 0, 1);

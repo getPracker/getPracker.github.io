@@ -19,17 +19,16 @@ function Header(){
         })
     }
     return (
-        <>
-        <header>  
-            <div className='header-content'>
-                <p className="inline-grid-col header-item">Hie! Welcome to my website... 
-                 Hope you enjoy it!</p>
-                 <div className='button-group'>
-                 <button className='header-button ' onClick={handleClick}>Resume</button>
-                 <button className='header-button '>Hire Me ?</button>
-                 </div>
-            </div>
-        </header>
+        <> 
+        <div className='inline-grid-row header-container'>
+            <p className="inline-grid-col header-item">Hie! Welcome to my website... 
+                Hope you enjoy it!</p>
+                <div className='button-group'>
+                <button className='header-button ' onClick={handleClick}>Resume</button>
+                <button className='header-button '>Hire Me ?</button>
+                </div>
+        </div>
+    
         </>
     )
 };
