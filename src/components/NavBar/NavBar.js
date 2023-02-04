@@ -11,7 +11,7 @@ function NavBar(){
       <nav className="inline-grid-col"  id="nav">
         <div className="nav-left">
           <img className="nav-img inline-grid-col" src={logo} alt="getPracker"></img>
-          <h1 className="nav-title">{prakhar}</h1>
+          <h3 className="nav-title">{prakhar}</h3>
         </div>
         <div className="nav-right">
           <NavItem val={false}/>
