@@ -1,5 +1,6 @@
 .nav-img{
   width: 2.5em;
+  border-radius: 13px;
 }
 
 .nav-icon{
@@ -33,6 +34,7 @@ nav{
 
 .nav-title{
   display: block;
+  align-self: center;
   padding: 0.25em;
   margin: 0.25em;
 }

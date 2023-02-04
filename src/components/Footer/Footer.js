@@ -9,13 +9,13 @@ import './Footer.css';
 function Footer(){
 
     return (
-      <footer className="inline-grid-row">
-        <div className="inline-grid-col text">
+      <footer className="inline-grid-row footer-container">
+        <div className="inline-grid-col text footer-item">
           <div className="inline-grid-col text-item">Follow Me!</div>
           <div className="ver"></div>
           <div className="inline-grid-col text-item">@getPracker</div>
         </div>
-        <ul className="inline-grid-col">
+        <ul className="inline-grid-col footer-item">
             <li> <a href="https://www.instagram.com/getPracker/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram"></img></a></li>
             <li className="inline-grid-col"><a className="inline-grid-col" href="https://www.linkedin.com/in/getPracker/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="LinkedIn"></img></a></li>
             <li className="inline-grid-col"><a className="inline-grid-col" href="https://github.com/getpracker" target="_blank" rel="noopener noreferrer"><img src={github} alt="Github"></img></a></li>
