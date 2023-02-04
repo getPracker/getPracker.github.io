@@ -2,7 +2,7 @@
 .about-container{
     border: 2px solid black;
     border-radius:  13px;
-    width: calc(100% - 6em);
+    width: calc(100% - 1em);
     margin-left: 0.5em;
     display: inline-grid;
     justify-items: center;
@@ -48,6 +48,14 @@ h1{
     margin: 0.2em;
 }
 
+ li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0.5em;
+}
+      
+
+
 .list-item p{
     color: black;
     font-size: 0.98em;
@@ -65,7 +73,7 @@ h1{
     }
 
     .about-container{
-        max-width: calc(100% - 6em);
+        max-width: calc(100% - 1em);
     }
 
 

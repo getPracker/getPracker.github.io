@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import "../../index.css";
 
 
 function Header(){
@@ -21,11 +22,11 @@ function Header(){
         <>
         <header>  
             <div className='header-content'>
-                <p className="header-item">Hie! Welcome to my website... 
+                <p className="inline-grid-col header-item">Hie! Welcome to my website... 
                  Hope you enjoy it!</p>
                  <div className='button-group'>
-                 <button className='header-item' onClick={handleClick}>Resume</button>
-                 <button className='header-item'>Hire Me ?</button>
+                 <button className='header-button ' onClick={handleClick}>Resume</button>
+                 <button className='header-button '>Hire Me ?</button>
                  </div>
             </div>
         </header>

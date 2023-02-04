@@ -9,7 +9,6 @@ import './Footer.css';
 function Footer(){
 
     return (
-      <>
       <footer className="inline-grid-row">
         <div className="inline-grid-col text">
           <div className="inline-grid-col text-item">Follow Me!</div>
@@ -23,7 +22,6 @@ function Footer(){
             <li className="inline-grid-col"><a className="inline-grid-col" href="https://www.youtube.com/@getPracker" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="Youtube"></img></a></li>
         </ul>
       </footer>
-      </>
     );
 }
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Varela+Round&display=swap');
+
 *{
   padding: 0em;
   margin: 0em;
@@ -6,7 +7,8 @@
   font-size: 20px;
   letter-spacing: 0.05em;
   box-sizing: border-box;
-  
+  text-align: center;
+  /* height: auto; */
 }
 
 ::-webkit-scrollbar{
@@ -28,12 +30,24 @@
 }
 
 
-body{
-  background-color: rgb(224, 224, 224);
-}
-
-
-.inline{
+.inline-grid-row{
   display: inline-grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  align-items: center;
+  padding: 0.25em;
+  margin: 0.25em;
 }
 
+.inline-grid-col{
+  display: inline-grid;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 0.25em;
+  margin: 0.25em ;
+}
+
+.app{
+  display: grid;
+  margin: 0.23em;
+}
