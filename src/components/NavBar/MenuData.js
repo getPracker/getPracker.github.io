@@ -16,6 +16,11 @@ const menuData = [
         cName: "inline-grid-col nav-item"
     },
     {
+        name: "Projects",
+        url: ROUTES.skillsRoute(),
+        cName: "inline-grid-col nav-item"
+    },
+    {
         name: "Contact",
         url: ROUTES.contactRoute(),
         cName: "inline-grid-col nav-item"
