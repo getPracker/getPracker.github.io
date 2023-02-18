@@ -6,7 +6,7 @@ footer{
     border: 0.01em solid black ;
     width: calc(100% - 1em);
     margin: 0.25em !important;
-    height: auto;
+    height: calc(100% - 1em);;
     position: relative;
     z-index: 8;
     left: 0.25em;
